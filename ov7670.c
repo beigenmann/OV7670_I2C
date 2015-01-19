@@ -25,7 +25,10 @@
 MODULE_AUTHOR("Jonathan Corbet <corbet@lwn.net>");
 MODULE_DESCRIPTION("A low-level driver for OmniVision ov7670 sensors");
 MODULE_LICENSE("GPL");
-
+#define MEDIA_BUS_FMT_YUYV8_2X8 0
+#define MEDIA_BUS_FMT_RGB444_2X8_PADHI_LE 1
+#define MEDIA_BUS_FMT_RGB565_2X8_LE 2
+#define MEDIA_BUS_FMT_SBGGR8_1X8 3 
 static bool debug;
 module_param(debug, bool, 0644);
 MODULE_PARM_DESC(debug, "Debug level (0-1)");
