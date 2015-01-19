@@ -1,0 +1,1 @@
+KERNEL=="ov7670*", GROUP="tty"  MODE="0760"

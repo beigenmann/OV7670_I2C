@@ -16,7 +16,7 @@ clean:
 
 install:	
 	make -C $(KERNELDIR) M=$(PWD) modules_install
-	cp 83-hc_sr04.rules /usr/lib/udev/rules.d 
+	cp 83-ov7670.rules /usr/lib/udev/rules.d 
 	depmod
 
 quickInstall:
