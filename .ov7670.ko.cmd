@@ -1,1 +1,0 @@
-cmd_/home/benno/src/OV7670_I2C/ov7670.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/benno/src/OV7670_I2C/ov7670.ko /home/benno/src/OV7670_I2C/ov7670.o /home/benno/src/OV7670_I2C/ov7670.mod.o
